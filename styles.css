@@ -216,6 +216,7 @@ img:hover{
     border-radius: 8px;
     width: 100px;
     margin: 20px;
+    filter:  drop-shadow( 10px 15px 20px grey);
 }
 
 .about-content p {
