@@ -73,7 +73,7 @@ nav ul li a:hover {
     -webkit-filter: blur(0.4px);*/
     text-align: center;
     padding: 100px 0;
-    height: 300px;
+    height: 400px;
     opacity: 0.8;
 }
 
@@ -216,7 +216,8 @@ img:hover{
     border-radius: 8px;
     width: 100px;
     margin: 20px;
-    filter:  drop-shadow( 10px 15px 20px grey);
+    filter:  drop-shadow( 10px 15px 10px grey);
+   
 }
 
 .about-content p {
@@ -385,10 +386,11 @@ img:hover{
     color: #1f1f1f;
 }
 .footer {
-    background-color: #1f1f1f;
-    color: #fff;
+    background-color: #666666;
+    color:#f1f1f1 ;
     padding: 20px 0;
     text-align: center;
+    font-size: 20px;
 }
 
 .footer .container {
@@ -405,7 +407,8 @@ img:hover{
 }
 
 .footer-links a {
-    color: #ffd700;
+    /*color: #ffd700;*/
+    color:  #ffc107;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -413,3 +416,28 @@ img:hover{
 .footer-links a:hover {
     color: #ffc107;
 }
+.footer .icon-info
+{
+    height: 200px;
+    margin: 20px;
+    color: #ffc107;
+    padding-inline: 113px;/*kale add karelu padding change*/
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+span{
+    font-size: 50px;
+}
+.link{
+    text-decoration: none;
+    font-size: 50px;
+    color: #ffc107;
+    font-style: inherit;
+
+}
+.icon-info>.hover{
+    box-shadow: none;
+}
+
