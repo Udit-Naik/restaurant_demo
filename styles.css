@@ -65,7 +65,7 @@ nav ul li a:hover {
     color: #1f1f1f;
 }
 .hero {
-    background-image: url('restaurant_menu.jpg'); /* Replace 'burger_image.jpg' with your actual image path */
+    background-image: url('image/restaurant_menu.jpg'); /* Replace 'burger_image.jpg' with your actual image path */
     background-size: cover;
     background-position: center;
     color: #fff;
