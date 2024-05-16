@@ -324,12 +324,13 @@ img:hover{
 .contact {
     background-color: #1f1f1f;
     color: #fff;
-    padding: 80px 0;
+    padding: 40px ;
 }
 
 .contact .container {
     max-width: 600px;
     margin: 0 auto;
+    padding: 30px;
 }
 
 .contact h2 {
@@ -385,6 +386,23 @@ img:hover{
     background-color: #ffc107;
     color: #1f1f1f;
 }
+.icon{
+    height: 50px;
+    text-align: center;
+    margin: 12px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.icon>.hover{
+    box-shadow: none;
+}
+span{
+    font-size: 20px;
+    margin-inline: 50px;
+}
+
+
 .footer {
     background-color: #666666;
     color:#f1f1f1 ;
@@ -418,7 +436,7 @@ img:hover{
 }
 .footer .icon-info
 {
-    height: 200px;
+    height: 100px;
     margin: 20px;
     color: #ffc107;
     padding-inline: 113px;/*kale add karelu padding change*/
@@ -427,12 +445,10 @@ img:hover{
     justify-content: space-evenly;
     align-items: center;
 }
-span{
-    font-size: 50px;
-}
+
 .link{
     text-decoration: none;
-    font-size: 50px;
+    font-size: 30px;
     color: #ffc107;
     font-style: inherit;
 
