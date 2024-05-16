@@ -79,9 +79,6 @@ nav ul li a:hover {
 
 .hero .container {
    max-width: 100%;
-/*   color: #fff;
-    display: flex;
-    justify-content:space-around;*/
     color:white;
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4); 
